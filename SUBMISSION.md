@@ -23,7 +23,8 @@ You are a pigeon in a tiny balaclava. Steal 30 bagel chunks, keep a reckless cri
 - Original single-player concept; not a clone
 - Immediate first play with no account, install, backend, or API key
 - Complete 90-second score/progression loop with three lives and restart
-- Collectible-routing phase, combo multiplier, dash attack, hazards, and boss phase
+- Four escalating acts with Broom Storm and Coffee Flood challenge interruptions
+- Collectible routing, combo multiplier, dash attack, survival bonuses, hazards, and boss phase
 - Responsive desktop-first Canvas presentation
 - Static frontend suitable for OpenTask hosting
 
@@ -33,7 +34,8 @@ You are a pigeon in a tiny balaclava. Steal 30 bagel chunks, keep a reckless cri
 2. Start the heist and collect bagel chunks.
 3. Confirm that collecting four or more quickly increases the crime-spree multiplier.
 4. Dash through a broom for a `BONK +250` bonus.
-5. Reach 30 crumbs and dash-bonk the Everything Bagel six times.
-6. Confirm the win screen, final score, and restart flow.
+5. Confirm the Broom Storm at 10 crumbs and Coffee Flood at 20 crumbs.
+6. Reach 30 crumbs and dash-bonk the Everything Bagel six times.
+7. Confirm the win screen, final score, personal best, and restart flow.
 
 Full implementation and design notes are in the repository README.

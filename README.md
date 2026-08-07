@@ -16,9 +16,12 @@ The game starts immediately in a modern desktop browser. There is no account, ba
 
 1. Grab bagel chunks before the 90-second timer expires.
 2. Chain pickups within 3.2 seconds to build a score multiplier.
-3. Dash through flying brooms for a 250-point `BONK` bonus. Coffee cannot be bullied.
-4. At 30 crumbs, the Everything Bagel enters the arena.
-5. Dash-bonk it six times before losing all three hearts.
+3. At 10 crumbs, survive the seven-second **Broom Storm** lunch rush.
+4. At 20 crumbs, navigate a **Coffee Flood** that collapses the safe lanes.
+5. Finish either interruption for a 750-point survival bonus.
+6. Dash through flying brooms for a 250-point `BONK` bonus. Coffee cannot be bullied.
+7. At 30 crumbs, the Everything Bagel enters the arena.
+8. Dash-bonk it six times before losing all three hearts.
 
 ## Run locally
 
@@ -37,7 +40,7 @@ npm run build
 
 ## Design notes
 
-Bagel Bandit was designed around one sentence that is funny before the game even loads: *a masked pigeon steals a giant bagel*. The controls fit on two hands, the first collectible is seconds away, and every mechanic reinforces reckless movement. The dash is simultaneously traversal, defense, and offense; the short combo window makes efficient routes feel good; the boss flips the player's learned avoidance behavior into aggression.
+Bagel Bandit was designed around one sentence that is funny before the game even loads: *a masked pigeon steals a giant bagel*. The controls fit on two hands, the first collectible is seconds away, and every mechanic reinforces reckless movement. The dash is simultaneously traversal, defense, and offense; the short combo window makes efficient routes feel good. Four escalating acts keep the 90-second run changing shape: an onboarding theft, a broom-heavy lunch rush, a coffee-flooded felony, and a boss fight that flips learned avoidance into aggression.
 
 The art is drawn directly in Canvas with a screen-printed arcade-poster shell. Sound effects use the Web Audio API, so the complete game remains a small static frontend with no external runtime dependencies.
 

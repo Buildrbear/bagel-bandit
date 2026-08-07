@@ -41,6 +41,7 @@ canvas { display:block; width:100%; height:100%; image-rendering:auto; }
 .start:focus-visible { outline:3px solid white; outline-offset:5px; }
 .capture { display:block; margin:14px auto 0; border:0; background:transparent; color:#c7bbc9; cursor:pointer; font-size:10px; text-decoration:underline; }
 .result-score { font:400 28px var(--font-display); color:var(--mint); margin:12px 0; }
+.best-score { margin:-5px 0 18px; color:#c7bbc9; font-size:11px; letter-spacing:2px; }
 .bottom { display:flex; justify-content:space-between; gap:20px; margin-top:18px; color:#c7bbc9; font-size:11px; line-height:1.5; }
 .bottom strong { color:var(--cream); }
 @keyframes pop { from { transform:scale(.86) rotate(-2deg); opacity:0; } }
