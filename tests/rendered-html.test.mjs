@@ -29,6 +29,7 @@ test("ships the complete game loop and submission documentation", async () => {
   ]);
   for (const signal of ["90", "crumbs>=30", "hp:6", 'mode="won"', 'mode="lost"']) assert.match(game, new RegExp(signal.replace(/[>=]/g, "\\$&")));
   for (const challenge of ["broomstorm", "coffeeflood", "SURVIVED +750", "BOSS BAGEL"]) assert.ok(game.includes(challenge));
+  for (const controlFix of ["tabIndex={0}", "demo.current=false", "keys.current.clear()", 'addEventListener("blur",clear)']) assert.ok(game.includes(controlFix));
   assert.match(readme, /Controls|Move:/i);
   assert.match(readme, /Design notes/i);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
